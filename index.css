@@ -26,3 +26,11 @@ body {
 	margin-top: 2rem;
 	border-radius: 25px;
 }
+
+#journey .card{
+	display: inline-block;
+	vertical-align: top;
+	min-height: 175px;
+	width: 30%;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
