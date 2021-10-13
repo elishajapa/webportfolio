@@ -1,0 +1,28 @@
+.gray {
+	position: relative;
+	text-align:  center;
+	color: ghostwhite;
+	border-radius: 150%;
+}
+
+.centered {
+  position: absolute;
+  top: 80%;
+  left: 20%;
+  transform: translate(-0%, -100%);
+  }
+
+body {
+	font-family: 'Festive', cursive;
+	font-size: 25px;
+}
+
+.noline {
+	text-decoration: none;
+}
+
+.button {
+	padding: 1rem;
+	margin-top: 2rem;
+	border-radius: 25px;
+}
