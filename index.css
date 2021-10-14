@@ -1,3 +1,4 @@
+/* front page picture */
 .gray {
 	position: relative;
 	text-align:  center;
@@ -5,6 +6,7 @@
 	border-radius: 150%;
 }
 
+/* Hi. Im Elisha Japa */
 .centered {
   position: absolute;
   top: 80%;
@@ -12,21 +14,32 @@
   transform: translate(-0%, -100%);
   }
 
+/* front page font */
 body {
 	font-family: 'Festive', cursive;
 	font-size: 25px;
+
 }
 
+/* 2nd page font */
+body .body2 {
+	font-family: 'IM Fell English SC', serif;;
+	font-size: 25px;
+}
+
+/* front page link */
 .noline {
 	text-decoration: none;
 }
 
+/*front page button*/
 .button {
 	padding: 1rem;
 	margin-top: 2rem;
 	border-radius: 25px;
 }
 
+/* journey section align */
 #journey .card{
 	display: inline-block;
 	vertical-align: top;
@@ -36,6 +49,29 @@ body {
 	margin-right: 0.5rem;
 	}
 
+/* My Journey Text */
+	.myjourney {
+		color: whitesmoke;
+		text-align: center;
+		padding: 5rem;
+	} 
+
+	/* My Thoughts Text */
+	.mythoughts {
+		color: whitesmoke;
+		text-align: center;
+		padding: 5rem;
+	} 
+
+/* My interests Text */
+	#myinterest {
+		color: whitesmoke;
+		text-align: center;
+		padding: 5rem;
+	} 
+	
+
+/* Interest - Books */
 	.books {
 	  position: relative;
 	  max-width: 800px; /* Maximum width */
@@ -50,4 +86,55 @@ body {
 	  color: #f1f1f1; /* Grey text */
 	  width: 100%; /* Full width */
 	  padding: 20px; /* Some padding */
+	}
+
+	/* Interest - Anime */
+	.anime {
+		position: relative;
+	  max-width: 800px; /* Maximum width */
+	  margin: 0 auto; /* Center it */
+	}
+
+	.anime .anime1 {
+	  position: absolute; /* Position the background text */
+	  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+	  background: rgb(0, 0, 0); /* Fallback color */
+	  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+	  color: #f1f1f1; /* Grey text */
+	  width: 100%; /* Full width */
+	  padding: 20px; /* Some padding */
+	}
+
+	/* Interest - Music */
+	.music {
+		position: relative;
+	  max-width: 800px; /* Maximum width */
+	  margin: 0 auto; /* Center it */
+	}
+
+	.music .music1 {
+	  position: absolute; /* Position the background text */
+	  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+	  background: rgb(0, 0, 0); /* Fallback color */
+	  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+	  color: #f1f1f1; /* Grey text */
+	  width: 100%; /* Full width */
+	  padding: 20px; /* Some padding */
+	}
+
+/* Interests image resize */
+	#book2, #anime2, #song2 {
+		width: 100%;
+		padding-top: 3rem;
+	}
+	/* Thoughts image resize */
+	#t11, #t22, #t33 {
+		height: 350px;
+		width: 350px;
+	}
+
+	/* remove border fix font*/
+	#start, #carousel, #education {
+		border: 0;
+		color: whitesmoke;
 	}
